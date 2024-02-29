@@ -31,3 +31,10 @@ jobs:
       with:
         name: surefire-report-jdk-${{ matrix.java }} 
         path: '**/target/site'
+    - name: ArchiveJacocoSite
+      uses: actions/upload-artifact@v2 
+      if: ${{ always() }}
+      with:
+        name: Jacoc-Report-jdk-${{ matrix.java }} 
+        path: '**/target/site/jacoco'
+      
