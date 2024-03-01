@@ -1,0 +1,1 @@
+[![Java CI with Maven in Linux](https://github.com/MeIbtihajnaeem/github-ci-example/actions/workflows/maven.yml/badge.svg?branch=main)](https://github.com/MeIbtihajnaeem/github-ci-example/actions/workflows/maven.yml)
